@@ -15,5 +15,9 @@ How it works:
 | Platform | GPU | Model | Flow | Source material | In token/s | Out tok/s | Total tok/s |
 | -------- | --- | ----- | ---- | --------------- | ---------- | ----------- | ---------- |
 | VertexAI | n/a | Gemini 2.0 Flash | document-rag+graph-rag | NASA Challenger Report Volume 1 | 216.2 | 155.8 | 372.0 |
-| LMStudio | Radeon RX7900 XT | Gemma2 9B | document-rag+graph-rag | NASA Challenger Report Volume 1 | 119.6 | 73.0 | 192.6 |
+| LMStudio | Radeon RX 7900 XTX | Gemma2 9B | document-rag+graph-rag | NASA Challenger Report Volume 1 | 119.6 | 73.0 | 192.6 |
+| LMStudio | Radeon RX 7900 XTX | Gemma3 4B QAT | document-rag+graph-rag | NASA Challenger Report Volume 1 | 116.2 | 133.9 | 250.1 |
+
+
+
 
