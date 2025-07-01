@@ -22,7 +22,9 @@ measuring:
 | LMStudio | Radeon RX 7900 XTX | Gemma2 9B | document-rag+graph-rag | NASA Challenger Report Volume 1 | 119.6 | 73.0 | 192.6 |
 | LMStudio | Radeon RX 7900 XTX | Gemma3 4B QAT | document-rag+graph-rag | NASA Challenger Report Volume 1 | 116.2 | 133.9 | 250.1 |
 | vllm-server | H100-SXM5-80GB (Tensordock) | TheBloke/Mistral-7B-v0.1-AWQ | document-rag+graph-rag | NASA Challenger Report Volume 1 | 304.3 | 1845.6 | 2150.0 |
-| vLLM | Intel Gaudi 2, 8 cards | meta-llama/Llama-3.3-70B-Instruct | document-rag+graph-rag | NASA Challenger Report Volume 1 | 1493.6 | 1545.8 | 3039.5 |
+| vLLM on Intel Gaudi 2 | Gaudi 2, 8 cards | meta-llama/Llama-3.3-70B-Instruct | document-rag+graph-rag | NASA Challenger Report Volume 1 | 1493.6 | 1545.8 | 3039.5 |
+| Granite Ridge | 128 Xeon Gen 6 CPU | meta-llama/Llama-3.3-70B-Instruct | document-rag+graph-rag | NASA Challenger Report Volume 1 | 67.0 | 22.4 | 89.3 |
+| Granite Ridge | 128 Xeon Gen 6 CPU | mistralai/Mistral-7B-Instruct-v0.3 | document-rag+graph-rag | NASA Challenger Report Volume 1 | 117.7 | 90.0 | 207.8 |
 
 ## Procedure
 
